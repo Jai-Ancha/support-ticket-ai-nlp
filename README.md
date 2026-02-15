@@ -79,16 +79,13 @@ cd support-ticket-ai
 
 pip install -r requirements.txt  
 
-### 3️⃣ Run FastAPI Backend
+---
 
-uvicorn app:app --reload  
+Frontend:
+http://13.234.56.78:8501
 
-Backend runs at:  
-http://127.0.0.1:8000  
-
-### 4️⃣ Run Streamlit Frontend
-
-streamlit run streamlit_app.py  
+Backend Docs:
+http://13.234.56.78:8000/docs
 
 ---
 
